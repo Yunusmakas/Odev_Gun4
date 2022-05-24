@@ -1,0 +1,346 @@
+body{
+    margin: 100px;
+    background-color: rgb(214, 241, 232);
+}
+
+.seeAll{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    Width:232px;
+    Height:71px;
+    box-shadow: 0px 11px 30px -15px rgba(103, 120, 225, 0.540483);
+    border-radius: 10px;
+}
+
+.seeAll a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111127;
+    text-decoration: none;
+    margin:  24px 12px  24px 45px;
+}
+
+.productDesingner{
+    Width:506px;
+    Height:200px;
+    background: #FFFFFF;
+    box-shadow: 0px 21px 87px -38px rgba(80, 98, 211, 0.5);
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.productDesingner h1{
+    box-sizing: border-box;
+    height: 32px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 25px;
+    color: #111127;
+    margin: 0px;
+}
+
+.productDesingner h2{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    color: #111127;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.productDesingner p{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18px;
+    color: #111127;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.productDesingner .item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+
+.item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 103px;
+    height: 32px;
+    background: #E7EAFB;
+    border-radius: 21px;
+    margin-right: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.item a:hover{
+    opacity: 0.7;
+    transition: 300MS;
+}
+
+.places{
+    margin-top: 70px;
+}
+
+.root, .klarna, .boulevard{
+    display: flex;    
+    margin-top: 20px;
+    width: 734px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #E7EAFB;
+    border-radius: 10px;
+    padding: 20px;    
+}   
+
+.root .circle, .klarna .circle, .boulevard .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    justify-content: center;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid 
+    #E7EAFB;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #8A9CFF;
+  }   
+
+.leadRoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.leadRoot h2, h3{
+    margin: 0px;
+}
+
+.leadRoot h3{
+    margin-top: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111127;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.root .adres, .klarna .adres, .boulevard .adres{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto;
+}
+
+.adres img{
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
+    margin-right:8px;
+    opacity: 0.7;    
+}
+
+.adres h4{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111127;
+    opacity: 0.7;
+    margin-right: 45px;
+}
+
+.searchTable{
+    margin-top: 60px;
+    width: 300px;
+    height: 750px;
+    background: #FFFFFF;
+    border: 1px solid #E7EAFB;
+    border-radius: 20px;
+}
+
+.keyword{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    width: 239px;
+    height: 46px;
+}
+
+.keyword h3{
+    margin-left: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111127;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.places hr{
+    color: #E7EAFB;;
+}
+
+/* Bu kısmı ul li ile yapıyorlar. Ben bildiğim yöntemle
+yaptım ul li şeklinde yapayım mı? */
+.checkboxList {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;    
+  }
+
+.checkboxList h3{
+    font-family: 'Mulish';  
+    text-transform: uppercase;
+    color: #111127;
+    opacity: 0.8;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.checkboxList p {
+    cursor: pointer;
+    font-size: 17px;  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #111127;
+  }
+
+  [type=checkbox]{
+      opacity: 0;
+      margin: -10px;
+      }
+
+  [type=checkbox] +label {
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+    display:inline-block;
+    color: black;
+    line-height: 25px;    
+}
+
+[type=checkbox] + label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;   
+    outline: 2px solid  #8A9CFF;
+    background:white;    
+}
+
+[type=checkbox]:checked + label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    outline: 2px solid  #8A9CFF;
+    background: white;
+}
+
+[type=checkbox]:checked + label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background: #8A9CFF;
+    background-image:url(img/check.svg) ;
+}
+
+.checkboxList{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight:700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #111127;
+}
+
+.checkboxList h6, h5{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #111127;
+    text-transform: uppercase;
+}
+
+.checkboxList h5{
+   margin-top: 30px;
+}
+
+select.country, select.city{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border: 2px solid #e7eafb;
+   border-radius: 8px;
+   background: #fff url(img/Path.svg) no-repeat calc(100% - 15px);
+   padding: 0 40px 0 20px;
+   width: 239px;
+   height: 46px;
+   line-height: 22px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #111127;
+   cursor: pointer;
+}
+
+.checkboxList button{
+    width: 239px;
+    height: 57px;
+    margin-top:20px;
+    background: #8A9CFF;
+    box-shadow: 0px 11px 30px -15px #6778E1;
+    border-color:#8A9CFF ;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.checkboxList button:hover{
+    opacity: 0.7;
+    transition: 500MS;
+}
